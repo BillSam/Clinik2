@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Clinic:war exploded">
+    <output-path>$PROJECT_DIR$/target/Clinik2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Clinic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.0.1.Final" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
+          <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.1.Final" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.9-rc" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:4.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" />
+          <element id="library" level="project" name="Maven: javax.ejb:javax.ejb-api:3.2" />
+          <element id="library" level="project" name="Maven: javax.transaction:javax.transaction-api:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.0" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.6.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Clinik2/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Clinic/web/Web" />
+    </root>
+  </artifact>
+</component>
